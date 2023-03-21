@@ -6,7 +6,7 @@
 deploymentType: "StatefulSet"
 
 # There should not be more than 1 sonarqube instance connected to the same database. Please set this value to 1 or 0 (in case you need to scale down programmatically).
-replicaCount: 2
+replicaCount: 1
 
 # This will use the default deployment strategy unless it is overriden
 deploymentStrategy: {}
